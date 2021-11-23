@@ -13,7 +13,9 @@ print("\n\n")
 
 # Simple printing exercise
 print("2 - ICE - Printing\n==============================")
-print("Day 1 - Python Print Function\nThe function is declared like this:\nprint('what to print')")
+print(
+    "Day 1 - Python Print Function\nThe function is declared like this:\nprint('what to print')"
+)
 print("\n\n")
 
 #  ICE 3 - Debbuging
@@ -28,6 +30,8 @@ print("\n\n")
 
 # ICE 4 - Input Function
 print("4 - ICE - Input Function\n==============================")
+
+
 def username_print():
     """ 
     Description: A function that receive a name and print the number of characters that the name contains
@@ -42,6 +46,7 @@ def username_print():
     #Print the length of the name
     print("The name's length is: ")
     print(len(username))
+
 
 username_print()
 print("\n\n")
