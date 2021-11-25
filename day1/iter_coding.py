@@ -31,24 +31,31 @@ print("\n\n")
 # ICE 4 - Input Function
 print("4 - ICE - Input Function\n==============================")
 
-
-def username_print():
+# Writing a function calculate length of a username
+def username_print(username):
     """ 
-    Description: A function that receive a name and print the number of characters that the name contains
+    Description: A function that receives a name and calculates the number of characters that the name contains
     
-    Input: None
+    Input: 
+          name: User's name
     
-    Output: The number of characters the name entered by the user contains
+    Output: The number of characters the name contains
     """
-    # Prompt the user to enter his name
-    username = input("What is your name?")
+    #Calculate the number of characters in the name
+    num_characters = len(username)
 
-    #Print the length of the name
-    print("The name's length is: ")
-    print(len(username))
+    #Return the results
+    return num_characters
 
+# Prompt the user to enter his name
+username = input("What is your name?")
 
-username_print()
+#Calculate the number of characters in the name
+username_print(username)
+
+#Print the length of the name
+print(f"The name's length is: {username}")
+
 print("\n\n")
 
 # ICE 5 - Variables
